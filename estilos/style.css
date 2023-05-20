@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background-color: lightgrey;
+}
+
+header{
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+header>h1{
+    font-family: 'Comfortaa', cursive;
+    margin-top: 10px;
+}
+
+nav a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid transparent
+}
+
+nav a:hover{
+    text-decoration: underline;
+    transition-duration: 0.5s;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+
+div.degrade{
+    background-image: linear-gradient(to bottom,#000103,#515052);
+}
+
+main{
+    background-color: white;
+    border-radius:0px 0px 10px 10px;
+    margin: auto;
+    padding: 10px;
+    min-width: 320px;
+    max-width: 800px;
+    padding-bottom: 30px;
+}
+main > p{
+    text-align: justify;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    margin: 40px;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 40px;
+    width: 810px;
+}
+
+img{
+    width: 100%;
+}
+
+footer{
+    margin-top: 143px;
+    background-color: white;
+    text-align: center;
+}
